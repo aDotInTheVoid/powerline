@@ -1,0 +1,16 @@
+{
+	"name": "One Dark color scheme for shell prompts",
+	"groups": {
+		"hostname":         { "fg": "one:black", "bg": "one:yellow", "attrs": [] },
+		"environment":      { "fg": "one:lightwhite", "bg": "darkestgreen", "attrs": [] },
+		"mode":             { "fg": "darkestgreen", "bg": "one:lightgreen", "attrs": ["bold"] },
+		"attached_clients": { "fg": "one:lightwhite", "bg": "darkestgreen", "attrs": [] }
+	},
+	"mode_translations": {
+		"vicmd": {
+			"groups": {
+				"mode": {"fg": "darkestcyan", "bg": "one:lightwhite", "attrs": ["bold"]}
+			}
+		}
+	}
+}
